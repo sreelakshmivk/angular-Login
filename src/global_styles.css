@@ -1,1 +1,28 @@
 /* Add application styles & imports to this file! */
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+body {
+  background-color: violet;
+}
+
+.auth-card {
+  background: #8c14c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #240b36,
+    #8c14c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #240b36,
+    #8c14c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px #f7f7f7;
+}
+
+.card-body {
+  margin-top: 35px;
+  border: none;
+  border-radius: 6px;
+}
